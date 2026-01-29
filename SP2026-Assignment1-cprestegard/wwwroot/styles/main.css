@@ -1,0 +1,72 @@
+/* Page background and text contrast */
+body {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+  min-height: 100vh;
+}
+
+/* Center all content */
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Circular / rounded cover art */
+#CoverArt {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #eaeaea;
+  margin: 1rem 0;
+}
+
+/* Trailer iframe responsive */
+#Trailer {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Spacing for sections */
+#Title {
+  margin-bottom: 0.5rem;
+}
+
+#Rating {
+  margin: 0.5rem 0;
+}
+
+#Summary {
+  margin: 1rem 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#Actors {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+#Actors li {
+  margin: 0.25rem 0;
+}
+
+/* IMDB link styling to match page text color */
+a {
+  color: #eaeaea;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #fff;
+}
