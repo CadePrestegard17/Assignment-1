@@ -17,6 +17,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/wwwroot"      # <-- put "/" if index.html is at the root
+          app_location: "SP2026-Assignment1-cprestegard/wwwroot"      # <-- put "/" if index.html is at the root
           api_location: ""       # <-- leave blank
           output_location: ""    # <-- leave blank
+
